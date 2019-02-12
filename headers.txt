@@ -1,0 +1,42 @@
+Expires ?Sat, 02 Feb 2019 04:28:34 GMT: The Expires header contains the date/time after which the response is considered stale.
+Date ?Sat, 02 Feb 2019 04:28:34 GMT: The Date general HTTP header contains the date and time at which the message was originated.
+Cache-Control ?: The Cache-Control general-header field is used to specify directives for caching mechanisms in both requests…requests and responses.
+private,max-age=0,:The max() CSS function lets you set the largest (most positive) value from a list of comma-separated…expressions as the value of a CSS property value. The max() function can be used anywhere a length, frequency
+must-revalidate:Revalidation and reloading must-revalidate The cache must verify the status of…ones should not be used. proxy-revalidate Same as must-revalidate, but it only applies to shared caches…server in an HTTP response.
+no-transform
+ETag ?"IUREzboS_XZycecz4xfru1ipYfo/xm5M63-667vYTkayRZTUFDX-TnM":The ETag HTTP response header is an identifier for a specific version of a resource. It allows caches…On the other side, if the content has changed, etags are useful to help prevent simultaneous updates
+Vary ?:The Vary HTTP response header determines how to match future request headers to decide whether a cached…used rather than requesting a fresh one from the origin server.
+Origin:The Origin request header indicates where a fetch originates from. It doesn't include any path information
+Vary ?X-Origin
+Content-Type ?: The Content-Type entity header is used to indicate the media type of the resource.
+application/json; :
+charset=UTF-8: The @charset CSS at-rule specifies the character encoding used in the style sheet. It must be the first…inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used
+Content-Encoding ?: The Content-Encoding entity header is used to compress the media-type. When present, its value indicates…indicates which encodings were applied to the entity-body. It lets the client know how to decode in order…order to obtain the media-type referenced by the Content-Type header.
+gzip:
+X-Content-Type-Options ?: The X-Content-Type-Options response HTTP header is a marker used by the server to indicate that the MIME…MIME types advertised in the Content-Type headers should not be changed and be followed. This allows…allows to opt-out of MIME type sniffing, or, in other words, it is a way to say that the webmasters knew what
+nosniff:
+X-Frame-Options ?:The X-Frame-Options HTTP response header can be used to indicate whether or not a browser should be allowed…allowed to render a page in a frame, iframe, embed or object . Sites can use this to avoid clickjacking
+SAMEORIGIN
+X-XSS-Protection ?:The HTTP X-XSS-Protection response header is a feature of Internet Explorer, Chrome and Safari that stops…reflected cross-site scripting (XSS) attacks. Although these protections are largely unnecessary in modern…JavaScript ('unsafe-inline'), they can still provide protections for users of older web browsers that don't yet
+1; mode=block
+Server ?:The Server header contains information about the software used by the origin server to handle the reques
+GSE
+Alt-Svc ?:The Alt-Svc header is used to list alternate ways to reach this website.
+quic=":443";
+ma=2592000;
+v="44,43,39"
+Transfer-Encoding ?:The Transfer-Encoding header specifies the form of encoding used to safely transfer the entity to the
+chunked
+Vary ?Origin
+Vary ?X-Origin
+Content-Type ?application/json; charset=UTF-8
+Content-Encoding ?gzip
+Date ?Sat, 02 Feb 2019 05:57:36 GMT
+Expires ?Sat, 02 Feb 2019 05:57:36 GMT
+Cache-Control ?private, max-age=0
+X-Content-Type-Options ?nosniff
+X-Frame-Options ?SAMEORIGIN
+X-XSS-Protection ?1; mode=block
+Server ?GSE
+Alt-Svc ?quic=":443"; ma=2592000; v="44,43,39"
+Transfer-Encoding ?chunked
